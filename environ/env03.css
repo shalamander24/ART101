@@ -1,10 +1,22 @@
 body { background: #9789ba; padding: 50px;}
 h1, h2 {color: #5d3e65; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif f;}
-p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px; color: #5b6082;}   
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px; color: #372852;}   
 #mypic1 {width: 200px;}
 #mypic2 {width: 100px;}
 #output {
-    background: rgba(168, 133, 187, 0.74);
+    background:#a375c4;
     padding: 10px;
     margin: 10px;
+}
+button {
+    background-color: #5d3e65;
+    color: rgb(84, 199, 96);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #a375c4;
 }
