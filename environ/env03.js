@@ -4,11 +4,14 @@ let mystarters = ["Fuzzy", "Willow", "Angel"];
 
 function askNumber(whatNumber) {
 let userNumber = prompt("Guess 1-10?");
-if (userNumber == whatNumber) {$("#output").html("The crystals hold the truth of what truely happened that night, you must collect all six...");}
+if (userNumber == whatNumber) 
+    {$("#output").html("The crystals hold the truth of what truely happened that night, you must collect all six...");}
+
 else {$("#output").html("You are not ready for the truth...");}}
-$("#mystery-button").click(function () {
+    $("#mystery-button").click(function () {
     askNumber(6);
 });
+
 
 let megaSentence;
 
@@ -30,3 +33,14 @@ $("#mypic1").after(megaSentence);
 $("#output").html(megaSentence2);
 $("#mypic3").after(megaSentence2);      
 
+$(".nice-block span").click(function () {
+
+    $(this).parent().toggleClass("more");
+
+    if ($(this).html() == "more") {
+        $(this).html("less");
+    } else {
+        $(this).html("more");
+    }
+
+});
