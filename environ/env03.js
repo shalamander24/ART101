@@ -1,4 +1,3 @@
-// Declaring an array with name mystarters
 let mystarters = ["Fuzzy", "Willow", "Angel"];
 
 // Function that checks a guessed number
@@ -26,8 +25,7 @@ $("#mypic1").hover(
 // Story sentences
 let megaSentence1 = "<h2>This is totally legit</h2>";
 let megaSentence2 = "<p>Now he rests alone with the jewels as he is set to slumber for the next century... or does he?</p>";
-let megaSentence3 = "<p>In a faraway land there lives a little dragon named Spike. He loved crystals until all the crystals were in his possession. His best friends are " 
-                    + mystarters[0] + " and " + mystarters[2] + ".</p>";
+let megaSentence3 = "<p>In a faraway land there lives a little dragon named Spike. He loved crystals until all the crystals were in his possession. His best friends are Fuzzy and Willow.</p>";
 let megaSentence4 = "<p>This is Spike. He was a friendly dragon, but with time everyone can lose something.</p>";
 
 // Output and placement of story paragraphs

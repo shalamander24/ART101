@@ -4,3 +4,4 @@ H1, H2, H3 {color: #536f4e; font-family: sans-serif;}
 #introduction h2 {font-style: italic;}
 #introduction p {font-size: 120%;}
 .navigation {display: flex;gap: 20px;}
+#duck {width: 300px;}
